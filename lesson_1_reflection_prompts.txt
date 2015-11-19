@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+-> By using diff one can see the lines that were removed and/or introduced.
+It can take a little longer to find the specific bug if many lines were changed,
+but it is definitely easier with a diff tool.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+-> You can see the evolution of the program you have been writing: you'll be
+more aware of past errors that may not be repeated in the future.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+-> Pros: 
+   - you can commit only when you want, which means that (in theory) the commited
+version will have exactly what you need/want in that moment;
+   - avoid having too many automatic and not-need versions;
+   - you can separate the commits logically
+-> Cons: 
+   - if any problem occurs before commiting you can lose the work you have been
+doing since the last commit;
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+-> Git is a code-oriented version control system. Since many files can be directly related
+to a certain change, it makes sense that the system allows saving multiple files
+in one commit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+-> By calling git log on the command line you can see the full commit history (with
+the comments associated to each commit); by calling git diff with two different id's
+you will see the updates (removals and additions) on files that were already on the
+repository.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+-> You can always break something and checkout a earlier commit and be sure that
+you will restart from a point where everything is working properly.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+-> 
