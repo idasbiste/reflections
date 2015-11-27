@@ -14,3 +14,8 @@ Describe the differences between forks, clones, and branches. When would you use
 -> Branching: add new changes, experiments while maintaing a correct version og the code and an easy access to it;
 -> Cloning: used when you want to work on the repository locally;
 -> Forking: when you want to change a public repository but you don't have the permission to it.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+-> You can work and see the actual state of the remote without being online. You can always update the local copy whenever you want even if you don't want to merge the changes made into the branches. 
